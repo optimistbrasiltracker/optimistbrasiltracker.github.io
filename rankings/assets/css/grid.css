@@ -1,0 +1,25 @@
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .grid-item {
+    width: calc(20% - 5px); /* Define a largura de cada item da grade para ocupar cerca de 33.33% da largura da tela com um espaçamento de 10px entre eles */
+    margin-bottom: 20px; /* Adiciona um espaçamento entre as linhas */
+    position: relative; /* Permite posicionar o texto absolutamente */
+  }
+  
+  .grid-item img {
+    width: 100%; /* Faz com que a imagem ocupe toda a largura do contêiner pai */
+    height: 200px; /* Define uma altura fixa para todas as imagens */
+    object-fit: cover; /* Redimensiona a imagem para preencher o contêiner sem distorcer, cortando o excesso se necessário */
+  }
+  
+  
+  .text-overlay {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+  }
+  
